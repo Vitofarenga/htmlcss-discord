@@ -17,12 +17,15 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(206, 161, 46);
+    background-color: rgb(0, 183, 255);
     width: 250px;
-    height: 50px;
-    border: dashed 3px;
     
     
+    
+    
+}
+#s2 a{
+    text-decoration: none;
 }
 #s2{
     display: flex;
@@ -30,10 +33,11 @@
     justify-items: center;
     align-items: center;
     justify-content: space-around;
-    background-color: rgb(206, 161, 46);
+    background-color: rgb(0, 183, 255);
     width: 750px;
-    height: 50px;
-    border: dashed 3px;
+    
+    
+    
     
 }
 .s1 input{
@@ -59,16 +63,40 @@
     
     width: 900px;
     font-size: 25px;
+    text-align: center;
+    color: white;
 }
-h1{
-        color: white;
-        text-align: center;
+#s3 > h1{
+       
+        
         padding-bottom: 3%;
 }
-#s3 p{
+#button1{
+    background-color: rgb(140, 158, 241);
     color: white;
-    text-align: center;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0;
 }
+#button2{
+    background-color: rgb(47, 47, 47);
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 220px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0;
+}
+
+
 /* principale2 */
 .c3{
     display: flex;
@@ -80,19 +108,28 @@ h1{
 .s4{
     width: 700px;
 }
+.s4 > 
 
 .s5{
-    display: flex;
     width: 400px;
 }
 .s5 h1{
     font-size: 55px;
     color: black;
     text-align: left;
+    padding-top: 12px;
 }
-#s5 p{
-    text-align: left;
+.s5{
+    width: 400px;
+    font-size: 20px;
 }
+#paragraph2{
+    padding-bottom: 200px;
+}
+#p3{
+    padding-bottom: 30px;
+}
+
 #c4{
     display: flex;
     flex-direction: row-reverse;
@@ -109,48 +146,103 @@ h1{
     align-items: center;
 }
 #s6{
-    height: 800px;
     width: 1100px;
-    background-color: green;
-    border: dashed 3px;
+    text-align: center;
 }
+#s6 > p{
+    font-size: 20px;
+    line-height: 90px;
+}
+#s6 > h1{
+    font-size: 55px;
+    color: black;
+}
+#rilievo{
+    font: 40px;
+}
+#s6 input{
+    background-color: rgb(140, 158, 241);
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0;
+}
+
 /* ending */
 #c6{
     display: flex;
     flex-direction: row;
     height: 500px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(69, 69, 69);
     justify-content: center;
     align-items: center;
     padding-bottom: 70px;
 }
+h3{
+    font-size: 40px;
+}
+#s7 h3{
+    color: rgb(140, 158, 241);
+}
 #s7{
-    background-color: rgb(219, 142, 192);
+    
     width: 300px;
-    height: 400px;
-    border: dashed 3px;
+
+    
+    
+}
+#special{
+    display: flex;
+    align-items: center;
+    line-height:40px ;
+}
+#special span{
+    align-items: center;
+}
+#special2{
+    height: 20px;
+    width: 30px;
+}
+#special2  img{
+        height: 100%;
+        width: 100%;
 }
 .s8{
-    background-color: rgb(92, 217, 202);
+    display: flex;
     width: 200px;
-    height: 400px;
-    border: dashed white 3px;
+    flex-direction: column;
+    line-height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+}
+.s8 a{
+    color: white;
+    text-decoration: none;
+}
+.sc{
+    color: rgb(140, 158, 241);
 }
 #c7{
     display: flex;
     flex-direction: row;
     width: 800px;
-    height: 403px;
-    border: dashed 3px;
+    height: 400px;
+    padding-top: 25px;
+    
 }
 #c8{
     display: flex;
     flex-direction: row;
     height: 80px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(69, 69, 69);
     justify-content: center;
     align-items: flex-end;
-    border-top: solid rgb(202, 200, 200) 1px;
+    
 }
 
 #s9{
@@ -158,9 +250,11 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    height: 60px;
+    height: 80px;
     width: 1100px;
-    background-color: rgb(104, 214, 202);
+    background-color:rgb(69, 69, 69);
+    border-top: solid rgb(140, 158, 241) 2px;
+    
     
 }
 .s10{
@@ -170,9 +264,22 @@ h1{
     justify-content: center;
     height: 40px;
     width: 80px;
-    background-color: yellow;
-    border: dashed 3px;
+    
+    
     font-size: 25px;
 }
+.s10 > input{
+    background-color: rgb(140, 158, 241);
+    color: white;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 0;
+}
+
 
     
